@@ -7,7 +7,7 @@ on:
 env:
   AWS_REGION: us-east-2                  # set this to your preferred AWS region, e.g. us-west-1
   ECR_REPOSITORY: kiran-ecr          # set this to your Amazon ECR repository name
-  ECS_SERVICE: fp-default                 # set this to your Amazon ECS service name
+  ECS_SERVICE: kube-system                # set this to your Amazon ECS service name
   ECS_CLUSTER: kiran-test                 # set this to your Amazon ECS cluster name
   ECS_TASK_DEFINITION: deployment.yml         # set this to the path to your Amazon ECS task definition
                                                # file, e.g. .aws/task-definition.json
